@@ -1,0 +1,120 @@
+/* Projects Container */
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .projects-container h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #915eff;
+  }
+  
+  /* Cards Layout for Projects */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Responsive grid layout */
+    gap: 1.5rem;
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+  }
+  
+  /* General Card Styling */
+  .card {
+    background-color: rgba(255, 255, 255, 0.05); /* Glass-like transparency */
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  }
+  
+  /* Hover Effects for Cards */
+  .card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Darker shadow effect on hover */
+  }
+  
+  /* Card Header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .card-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .neon-glow {
+    filter: drop-shadow(0 0 10px #915eff);
+  }
+  
+  /* Card Description */
+  .card-description {
+    color: #a0a0a0;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  /* Link to project */
+  .card a {
+    color: #915eff;
+    font-weight: 500;
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .card a:hover {
+    color: #c490ff;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem 4rem;
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: #a0a0a0;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 768px) {
+    .projects-container {
+      padding: 1rem;
+    }
+    .cards-container {
+      padding: 1rem;
+    }
+    .card {
+      padding: 1.5rem;
+    }
+    .card-title {
+      font-size: 1.25rem;
+    }
+  }
