@@ -45,6 +45,6 @@ export default {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/line-clamp'),
+    // line-clamp plugin removed as it's now built into Tailwind CSS core
   ],
 }

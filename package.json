@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mrstraw-hat.github.io/muhammedfalah",
+  "homepage": "https://muhammedfalahh.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -27,6 +27,8 @@
     "locomotive-scroll": "^4.1.4",
     "split-type": "^0.3.4",
     "smooth-scrollbar": "^8.8.4"
+
+    
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
